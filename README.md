@@ -139,3 +139,61 @@ elif (week in weekend):
 else: print ("You forget the week ?? Try again")
 ```
 
+
+### Finding Missing Numbers. Don't you try first on bills, in the pocket...
+```python
+# You can find the number you miss while writing 1,2,3... Sorry!!
+import ast
+x = ast.literal_eval(input())
+
+y = [num for num in range(1,len(x)+1)]
+z = set(y).difference(set(x))
+print("Number missing in you input are: ",list(z))
+```
+
+
+### You can search for correct way of pattern of alphabets
+```python
+# If it in the formet of abbcccddd... or not, try
+x = input()
+y = list(set(x))
+z = 0
+length = [num for num in range(1,len(y)+1)]
+for i in y:
+    z += x.count(i)
+if (sum(length) == z):
+    print ("Its a unusual string")
+else: print("Its not, try again")
+```
+
+
+### Try adding any of your number times you number
+```python
+# You can try it with 1 then 10.. have fun
+x = input()
+i = ""
+listx = []
+sumx = 0
+while (len(listx)!= int(x)):
+    i += x
+    listx.append(int(i))
+for item in listx:
+    sumx +=item
+print(listx, "and here:",sumx)
+```
+
+
+### Print a nested list while typing in a loop
+```python
+# Make a combination of string and integer because why not
+nested_list = []
+a = []
+while (int(input("Put 1 if Add and 0 to stop: ")) != 0):
+    x = input("String input only: ")
+    y = int(input("Integer input only: "))
+    a.append(x)
+    a.append(y)
+    nested_list.append(a)
+    a = []
+print(nested_list)
+```
