@@ -109,7 +109,7 @@ print (reverse_it(num))
 
 ### Use of if-elif statement. Have fun...
 ```python
-### Try any integer positive or negative even zero to enjoy
+# Try any integer positive or negative even zero to enjoy
 number = input("Tell me the number ")
 
 if (int(number) < 0) : print ("OH! You are on negative side")
@@ -121,7 +121,7 @@ else : print ("Congrats Its Zero")
 ### Alarm Clock
 ### Need a clock while you are on break from office work. Buy one.
 ```python
-### Its an alarm clock for fun. Put a week number and 1 if you are on vacation else 0
+# Its an alarm clock for fun. Put a week number and 1 if you are on vacation else 0
 week = int(input("Number of week followed by Vacatation status: "))
 vacation = bool(input() =="0")
 weekdays = [1,2,3,4,5]
