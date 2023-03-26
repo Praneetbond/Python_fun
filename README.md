@@ -1,10 +1,10 @@
 # Python_fun (Basic)
-### Just enjoy some basic codes for Python 3
+## Just enjoy some basic codes for Python 3
 
 
-## Swap Alphabets for Upper to Lower to Upper.
+### Swap Alphabets for Upper to Lower to Upper.
 ```python
-### Try any mixter of upper and lower character.
+# Try any mixter of upper and lower character.
 def swap_case(s):
     y = []
     for i in s:
@@ -23,9 +23,9 @@ if __name__ == '__main__':
 ```
 
 
-## You need only unique characters in you list
+### You need only unique characters in you list
 ```python
-### Try with multi inputs at a time ofcourse!!.
+# Try with multi inputs at a time ofcourse!!.
 from ast import literal_eval
 user_defined = input("Enter you numbers: ")
 x = literal_eval(user_defined)
@@ -35,12 +35,12 @@ print (x)
 ```
 
 
-## Pattern Printing
+### Pattern Printing
 ```python
-### You love stars in a pattern. You are lucky...
+# You love stars in a pattern. You are lucky...
 n = int(input("How large you want: "))
 
-### For Piramid one.
+# For Piramid one.
 for i in range (1, n+1):
     for j in range (n-i):
         print (" ", end = '')
@@ -48,7 +48,7 @@ for i in range (1, n+1):
         print ("*_", end = '')
     print ("*")
 
-### For Right one.
+# For Right one.
 for i in range (1, n+1):
     for j in range (n-n):
         print (" ", end = '')
@@ -56,7 +56,7 @@ for i in range (1, n+1):
         print ("*_", end = '')
     print ("*")
     
-### For Left one.
+# For Left one.
 for i in range (1, n+1):
     for j in range ((n-i)*2):
         print (" ", end = '')
@@ -66,9 +66,9 @@ for i in range (1, n+1):
 ```
 
 
-## Armstrong Number  
+### Armstrong Number  
 ```python
-### A number that is the sum of its own digits each raised to the power of the number of digits.
+# A number that is the sum of its own digits each raised to the power of the number of digits.
 def armstrong_number(n):
     sum1 = 0
     power = len(str(n))
@@ -87,9 +87,9 @@ armstrong_number(m)
 ```
 
 
-## Reverse the number
+### Reverse the number
 ```python
-### Reverse it from back to front and complicate your calculation. Enjoy..
+# Reverse it from back to front and complicate your calculation. Enjoy..
 num = int(input("Why you are doing this: "))
 
 def reverse_it (num):
@@ -107,7 +107,7 @@ print (reverse_it(num))
 ```
 
 
-## Use of if-elif statement. Have fun...
+### Use of if-elif statement. Have fun...
 ```python
 ### Try any integer positive or negative even zero to enjoy
 number = input("Tell me the number ")
@@ -118,7 +118,7 @@ else : print ("Congrats Its Zero")
 ```
 
 
-## Alarm Clock
+### Alarm Clock
 ### Need a clock while you are on break from office work. Buy one.
 ```python
 ### Its an alarm clock for fun. Put a week number and 1 if you are on vacation else 0
