@@ -154,8 +154,8 @@ print("Number missing in you input are: ",list(z))
 
 ### You can search for correct way of pattern of alphabets
 ```python
-# If it in the formet of abbcccddd... or not, try
-x = input()
+# If it in the formet of abbcccdddd... or not, try
+x = input("Try your mixtur: ")
 y = list(set(x))
 z = 0
 length = [num for num in range(1,len(y)+1)]
@@ -170,7 +170,7 @@ else: print("Its not, try again")
 ### Try adding any of your number times you number
 ```python
 # You can try it with 1 then 10.. have fun
-x = input()
+x = input("Enter you fun digit: ")
 i = ""
 listx = []
 sumx = 0
@@ -196,4 +196,16 @@ while (int(input("Put 1 if Add and 0 to stop: ")) != 0):
     nested_list.append(a)
     a = []
 print(nested_list)
+```
+
+
+### Love to play Chess, Good for you
+```python
+# Print chess format of 0 and 1
+import numpy as np
+y = int(input("Input multiple of 2: "))
+z = int((y*y)/2)
+x = np.array([0,1]*z).reshape(y,y)
+x[range(0,y,2)] = (x[range(0,y,2)]+1)%2
+print(x)
 ```
