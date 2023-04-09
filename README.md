@@ -162,7 +162,7 @@ length = [num for num in range(1,len(y)+1)]
 for i in y:
     z += x.count(i)
 if (sum(length) == z):
-    print ("Its a unusual string")
+    print ("Its a unusual string. Congrats!!!")
 else: print("Its not, try again")
 ```
 
